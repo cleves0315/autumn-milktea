@@ -4,6 +4,8 @@
   --font-family-base:
     'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+  --pink: #fd80a2;
 }
 
 html,
@@ -24,5 +26,38 @@ body {
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: center;
-  background-image: url(/1.png);
+  /* background-image: url(/frame.jpg); */
+}
+
+.bg-pink {
+  @apply bg-[var(--pink)];
+}
+
+.bg-custom {
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.bg-block {
+  background-image: url(/block.png);
+}
+
+.bg-milktea {
+  background-image: url(/milktea.png);
+}
+
+.bg-autumns {
+  background-image: url(/autumns.png);
+}
+
+#cup-btm {
+  background-image: url(/cup-btm.png);
+}
+
+#cup-body {
+  background-image: url(/cup-body.png);
+}
+
+#cup-lid {
+  background-image: url(/cup-lid.png);
 }
