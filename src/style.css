@@ -61,3 +61,24 @@ body {
 #cup-lid {
   background-image: url(/cup-lid.png);
 }
+
+#love {
+  background-image: url(/love.png);
+}
+
+#sig {
+  background-image: url(/sig.png);
+}
+
+#forSavage {
+  background-image: url(/for-savage.png);
+
+  /* clip-path: inset(0 100% 0 0);
+  animation: revealClip 1s ease-out forwards; */
+}
+
+@keyframes revealClip {
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}

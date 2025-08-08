@@ -2,36 +2,64 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Milk Tea Day</title>
   </head>
   <body>
-    <div id="app" class="h-full flex flex-col items-center justify-between">
+    <div
+      id="app"
+      class="relative h-full flex flex-col items-center justify-between overflow-hidden"
+    >
       <h1 class="w-[18rem] h-[5rem] block pt-[5.5rem]">
-        <span class="block bg-autumns bg-custom w-full h-[2.5rem]"></span>
         <span
+          id="autumns"
+          class="block bg-autumns bg-custom w-full h-[2.5rem]"
+          style="transform: translate(-50rem)"
+        ></span>
+        <span
+          id="milktea"
           class="block bg-milktea bg-custom w-full h-[2.5rem] mt-[1.3rem]"
+          style="transform: translate(50rem)"
         ></span>
       </h1>
+      <span
+        id="forSavage"
+        class="bg-custom w-[17rem] h-[5rem] absolute top-[6rem]"
+        style="clip-path: inset(0 100% 0 0)"
+      ></span>
 
       <div
         id="cup-btm"
         class="w-[18rem] h-[6rem] bg-custom absolute bottom-[7.2rem]"
+        style="transform: translateY(-50rem)"
       ></div>
       <div
         id="cup-body"
         class="w-[14rem] h-[23.5rem] bg-custom absolute bottom-[8.8rem]"
+        style="transform: translateY(-50rem)"
       ></div>
       <div
         id="cup-lid"
-        class="w-[18rem] h-[9.5rem] bg-custom absolute bottom-[30.2rem]"
+        class="w-[17rem] h-[9.5rem] bg-custom absolute bottom-[29.7rem]"
+        style="transform: translateY(-50rem)"
       ></div>
 
       <footer class="footer w-full">
         <div class="bg-block bg-custom h-[10rem]"></div>
         <div class="bg-pink h-[9rem]"></div>
       </footer>
+
+      <div
+        id="love"
+        class="bg-custom absolute w-[11.8rem] h-[3rem] left-[2.5rem] bottom-[1rem]"
+        style="transform: translateX(-50rem)"
+      ></div>
+      <div
+        id="sig"
+        class="bg-custom absolute w-[7.8rem] h-[3rem] right-[2.4rem] bottom-[1rem]"
+        style="transform: translateX(-50rem)"
+      ></div>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>

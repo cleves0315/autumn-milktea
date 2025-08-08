@@ -1,5 +1,6 @@
 import './style.css'
 import { resizeFrame } from './flexible.ts'
+import { animate } from './animate.ts'
 
 // document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 //   <div>
@@ -22,3 +23,5 @@ import { resizeFrame } from './flexible.ts'
 // setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
 
 resizeFrame()
+
+animate()
