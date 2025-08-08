@@ -1,6 +1,7 @@
 import { ceilToTwo, isMobile } from './utils'
 
 const remRatio = 0.04
+const whRatio = 0.462
 const layoutRef = document.querySelector('#app') as HTMLDivElement | null
 
 const resizeRootFontSize = (clientWidth: number) => {
@@ -10,10 +11,11 @@ const resizeRootFontSize = (clientWidth: number) => {
 
 export const resizeFrame = () => {
   let winWidth = window.innerWidth
+  let winHeight = window.innerHeight
   let frameWidth
 
   if (layoutRef) {
-    frameWidth = isMobile() ? winWidth : Math.min(winWidth, 600)
+    frameWidth = isMobile() ? winWidth : winHeight * whRatio
     layoutRef.style.width = frameWidth + 'px'
     resizeRootFontSize(frameWidth)
   } else {
