@@ -4,4 +4,6 @@ import { animate } from './animate.ts'
 
 resizeFrame()
 
-animate()
+fetch('/cup-body.png').then(() => {
+  animate()
+})
