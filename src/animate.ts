@@ -18,6 +18,6 @@ export const animate = async () => {
   ant(
     '#forSavage',
     { clipPath: 'inset(0 0 0 0)' },
-    { duration: 1, type: 'tween' }
+    { duration: 2, type: 'tween' }
   )
 }
