@@ -45,10 +45,6 @@ This project presents a milk tea-themed webpage featuring rich animations and ex
 
 4. Open your browser and visit `http://localhost:3000` to view the project.
 
-## Design Resources
-
-[Figma Design](https://www.figma.com/design/dYDRKYoKCdmlpifHh0t0Ba/CHAHUA?node-id=0-1&p=f&t=QdG3suU8rMbclMta-0)
-
 ## License
 
 This project is licensed under the MIT License.

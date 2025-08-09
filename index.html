@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"
+    />
     <title>Milk Tea Day</title>
   </head>
   <body>
@@ -11,7 +14,7 @@
       id="app"
       class="relative h-full flex flex-col items-center justify-between overflow-hidden"
     >
-      <h1 class="w-[18rem] h-[5rem] block pt-[5.5rem]">
+      <h1 id="title" class="w-[18rem] h-[5rem] block pt-[5.5rem]">
         <span
           id="autumns"
           class="block bg-autumns bg-custom w-full h-[2.5rem]"
@@ -86,11 +89,6 @@
         style="transform: translateY(-50rem)"
       ></div>
 
-      <footer class="footer w-full">
-        <div class="bg-block bg-custom h-[10rem]"></div>
-        <div class="bg-pink h-[9rem]"></div>
-      </footer>
-
       <div
         id="love"
         class="bg-custom absolute w-[11.8rem] h-[3rem] left-[2.5rem] bottom-[1rem]"
@@ -101,6 +99,11 @@
         class="bg-custom absolute w-[7.8rem] h-[3rem] right-[2.4rem] bottom-[1rem]"
         style="transform: translateX(-50rem)"
       ></div>
+
+      <footer class="footer w-full">
+        <div class="bg-block bg-custom h-[10rem]"></div>
+        <div class="bg-pink h-[9rem]"></div>
+      </footer>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>

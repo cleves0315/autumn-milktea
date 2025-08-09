@@ -39,9 +39,7 @@ const entry = async () => {
 const shake = async () => {
   ant('#cup-body', { rotate: [0, 8, -8, 8, -8, 0] }, { duration: 0.4 })
   await ant('#cup-lid', { rotate: [0, -8, 8, -8, 8, 0] }, { duration: 0.4 })
-  setTimeout(() => {
-    shake()
-  }, 1000)
+  setTimeout(shake, 1000)
 }
 
 export const animate = async () => {
