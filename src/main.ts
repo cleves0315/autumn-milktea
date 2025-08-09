@@ -15,6 +15,7 @@ const adaptH5 = () => {
     queryDom('#cup-btm').style.bottom = '1.2rem'
     queryDom('#cup-body').style.bottom = '3.8rem'
     queryDom('#cup-lid').style.bottom = '24.7rem'
+
     queryDom('#title').style.paddingTop = '1rem'
   }
 }
