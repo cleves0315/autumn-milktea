@@ -55,7 +55,7 @@ body {
 }
 
 #cup-body {
-  background-image: url(/cup-body.png);
+  background-image: url(/cup-body2.png);
 }
 
 #cup-lid {
@@ -72,13 +72,8 @@ body {
 
 #forSavage {
   background-image: url(/for-savage.png);
-
-  /* clip-path: inset(0 100% 0 0);
-  animation: revealClip 1s ease-out forwards; */
 }
 
-@keyframes revealClip {
-  to {
-    clip-path: inset(0 0 0 0);
-  }
+.pearl {
+  background-image: url(/pearl.svg);
 }

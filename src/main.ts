@@ -2,8 +2,10 @@ import './style.css'
 import { resizeFrame } from './flexible.ts'
 import { animate } from './animate.ts'
 
-resizeFrame()
+document.addEventListener('DOMContentLoaded', () => {
+  resizeFrame()
+})
 
-fetch('/cup-body.png').then(() => {
+window.addEventListener('load', () => {
   animate()
 })
