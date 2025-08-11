@@ -2,6 +2,8 @@
 
 Autumn MilkTea is a milk tea-themed project designed to showcase the charm of milk tea through engaging animations and designs.
 
+![Image](https://i.imgur.com/07LHJh1.png)
+
 ## Project Overview
 
 This project presents a milk tea-themed webpage featuring rich animations and exquisite design elements. Users can experience the culture and aesthetics of milk tea by browsing the webpage.
