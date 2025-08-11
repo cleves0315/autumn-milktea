@@ -10,7 +10,6 @@ const queryDom = (selector: string) => {
 const adaptH5 = () => {
   if (isMobile()) {
     queryDom('#love').style.display = 'none'
-    queryDom('#sig').style.display = 'none'
 
     queryDom('#cup-btm').style.bottom = '1.2rem'
     queryDom('#cup-body').style.bottom = '3.8rem'

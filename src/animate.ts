@@ -16,23 +16,16 @@ const entry = async () => {
   await ant('#cup-lid', { y: 0 }, { delay: 2.4 })
 
   ant('#love', { x: 0 }, { type: 'tween' })
-  await ant('#sig', { x: 0 }, { type: 'tween', delay: 0.4 })
 
   ant(
     '#autumns',
     { x: 0, y: 0, rotate: 360 * 4 },
     { type: 'tween', delay: 0.2 }
   )
-  await ant(
+  return ant(
     '#milktea',
     { x: 0, y: 0, rotate: 360 * 4 },
     { type: 'tween', delay: 0.6 }
-  )
-
-  return ant(
-    '#forSavage',
-    { clipPath: 'inset(0 0 0 0)' },
-    { duration: 2, type: 'tween', delay: 0.4 }
   )
 }
 
