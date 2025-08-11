@@ -1,6 +1,6 @@
-# Milk Tea Day🧋
+# Autumn MilkTea🧋
 
-Milk Tea Day is a milk tea-themed project designed to showcase the charm of milk tea through engaging animations and designs.
+Autumn MilkTea is a milk tea-themed project designed to showcase the charm of milk tea through engaging animations and designs.
 
 ## Project Overview
 
@@ -28,7 +28,7 @@ This project presents a milk tea-themed webpage featuring rich animations and ex
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/cleves0315/milk-tea-day.git
+   git clone https://github.com/cleves0315/autumn-milktea.git
    ```
 
 2. Install dependencies:
