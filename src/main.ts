@@ -24,6 +24,10 @@ document.addEventListener('DOMContentLoaded', () => {
   resizeFrame()
 })
 
-window.addEventListener('load', () => {
-  animate()
+window.addEventListener('load', async () => {
+  await animate()
+
+  queryDom('#cup-body').addEventListener('click', () => {
+    fetch(import.meta.env.VITE_API_URL)
+  })
 })
